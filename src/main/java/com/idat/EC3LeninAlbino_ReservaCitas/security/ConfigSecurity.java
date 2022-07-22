@@ -45,7 +45,7 @@ public class ConfigSecurity extends WebSecurityConfigurerAdapter {
     @Bean
     public JwtAccessTokenConverter accessTokenConverter() {
         JwtAccessTokenConverter tokenConverter = new JwtAccessTokenConverter();
-        tokenConverter.setSigningKey("te-sigo-en-youtube");
+        tokenConverter.setSigningKey("examen");
         return tokenConverter;
     }
 
